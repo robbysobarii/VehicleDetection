@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.Detection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:6:5-65
+11-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature
+13-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:8:5-10:36
+14        android:name="android.hardware.camera"
+14-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:9:9-47
+15        android:required="false" />
+15-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:10:9-33
+16    <uses-feature
+16-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera.autofocus"
+17-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:12:9-57
+18        android:required="false" />
+18-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.front"
+20-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:15:9-53
+21        android:required="false" />
+21-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:16:9-33
+22    <uses-feature
+22-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:17:5-19:36
+23        android:name="android.hardware.camera.front.autofocus"
+23-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:18:9-63
+24        android:required="false" />
+24-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:19:9-33
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29
+30    <application
+30-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:21:5-36:19
+31        android:allowBackup="true"
+31-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:22:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:23:9-43
+35        android:label="VehicleDetectionApp"
+35-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:24:9-44
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:25:9-54
+37        android:supportsRtl="true"
+37-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:26:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.ImagePro" >
+39-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:27:9-46
+40        <activity android:name="com.example.imagepro.CameraActivity" />
+40-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:28:9-61
+40-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:28:19-49
+41        <activity android:name="com.example.imagepro.MainActivity" >
+41-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:29:9-35:20
+41-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:29:19-47
+42            <intent-filter>
+42-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:30:13-34:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:31:17-69
+43-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:31:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:33:17-77
+45-->D:\Kerjaan\Freelance\VehicleDetection\Vehicle-Detection-App-Android-master\app\src\main\AndroidManifest.xml:33:27-74
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>
